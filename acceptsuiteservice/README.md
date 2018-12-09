@@ -36,7 +36,7 @@ Windows desktop operating systems
   
   * Add Connector tag in server.xml file which is given in "conf" sub-directory of the Eclipse embeded Tomcat installed directoryies.
   
-	![Image of Apache tomcat](acceptsuiteservice/documents/images/Apache-tomcat-openssl.PNG)
+	![Image of Apache tomcat](acceptsuiteservice/acceptsuiteservice/documents/images/Apache-tomcat-openssl.PNG)
 
 * Open the browser and search the URL(e.g. https://localhost:9443/).
 
