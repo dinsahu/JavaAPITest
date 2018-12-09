@@ -36,23 +36,23 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * Click on Download ZIP and choose the folder C:\GithubLocal to save.
 
-![Image of DownloadToGitHubFolder](Github-Images/DownloadToGitHubFolder.PNG)
+![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
 
 * UnZip the folder accept-sample-app-java-master.zip
 
 * Once UnZipped , accept-sample-app-java-master Folder contains css, js , HTML files along with few folders.
 
-![Image of FolderStructure](Github-Images/FolderStructure.PNG)
+![Image of FolderStructure](acceptsuiteservice/documents/images/FolderStructure.PNG)
 
 ## Creation of Web Dynamic Project using Eclipse IDE for UI
 
 * Open Eclipse IDE and Create a web dynamic project name as AcceptScript.
 
-![Image of NewProjectUI](Github-Images/NewProjectUI.PNG)
+![Image of NewProjectUI](acceptsuiteservice/documents/images/NewProjectUI.PNG)
 
 * Copy all the files and folders from accept-sample-app-java-master folder except AcceptSuite-JavaWebService-API folder and paste it in WebContent Folder of created web dynamic project.
 
-![Image of UIWebContent](Github-Images/UIWebContent.PNG)
+![Image of UIWebContent](acceptsuiteservice/documents/images/UIWebContent.PNG)
 
 * Open the folder **AcceptSuite-JavaWebService-API**
 
@@ -96,15 +96,15 @@ The following are the parameters with values that remains constant throughout th
 
 * ClientKey 
 
-![Image of clientKey](Github-Images/clientKey.PNG)
+![Image of clientKey](acceptsuiteservice/documents/images/clientKey.PNG)
 
 * ApiLoginID
 
-![Image of apiLogin](Github-Images/apiLogin.PNG)
+![Image of apiLogin](acceptsuiteservice/documents/images/apiLogin.PNG)
 
 * ApiTransactionKey
 
-![Image of apiTransactionKey](Github-Images/apiTransactionKey.PNG)
+![Image of apiTransactionKey](acceptsuiteservice/documents/images/apiTransactionKey.PNG)
 
 
 ### Create Website on Apache Tomcat Server
@@ -114,14 +114,14 @@ The following are the parameters with values that remains constant throughout th
 *	Select Tomcat v7.0 Server
 *	Select Server runtime environment. Press add
 
-	![Add-Website](Github-Images/Add-Website-Apache.png)
+	![Add-Website](acceptsuiteservice/documents/images/Add-Website-Apache.png)
 	
 *	Select the folder where you extracted the server files that you have downloaded
 
-	![Add-Website](Github-Images/Add-Website-Server.png)
+	![Add-Website](acceptsuiteservice/documents/images/Add-Website-Server.png)
 	
 ## browse the website
 
 Sample URL: https://10.173.125.203:9443/AcceptScript/index_all.html
 
-![Image of dashboard](Github-Images/dashboard.PNG)
+![Image of dashboard](acceptsuiteservice/documents/images/dashboard.PNG)
