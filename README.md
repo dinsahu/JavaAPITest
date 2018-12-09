@@ -32,7 +32,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * Popup Displays 2 Options Open in Desktop or Download ZIP
 
-![Image of CloneorDownloadButton](Github-Images/CloneorDownloadButton.PNG)
+![Image of CloneorDownloadButton](acceptsuiteservice/documents/images/CloneorDownloadButton.PNG)
 
 * Click on Download ZIP and choose the folder C:\GithubLocal to save.
 
