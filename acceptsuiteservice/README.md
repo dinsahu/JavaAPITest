@@ -10,7 +10,7 @@ Developer Guide to deploy the Java Web Service API Application on Apache Tomcat 
 *	Apache Tomcat7.0 Server or higher version.
 
 
-## Deploy Java Web Service API Application to Apache Tomcat Serverrrrrr.
+## Deploy Java Web Service API Application to Apache Tomcat Server.
 
 Please follow step by step procedure to host the Java Web Service API Application to Apache Tomcat Server.
 
@@ -36,7 +36,7 @@ Windows desktop operating systems
   
   * Add Connector tag in server.xml file which is given in "conf" sub-directory of the Eclipse embeded Tomcat installed directoryies.
   
-	![Image of Apache tomcat](acceptsuiteservice/documents/images/Apache-tomcat-openssl.PNG)
+	![Image of Apache tomcat](documents/images/Apache-tomcat-openssl.PNG)
 
 * Open the browser and search the URL(e.g. https://localhost:9443/).
 
