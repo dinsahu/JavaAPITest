@@ -45,21 +45,21 @@ Windows desktop operating systems
 
 * Import AcceptSuite and ane_java_sdk folders in Eclipse IDE.
 
-	![Image of Open-Solution](acceptsuiteservice/documents/images/eclipse-import.PNG)
+	![Image of Open-Solution](documents/images/eclipse-import.PNG)
 
 * Build the Application.
 
 * Right-click on the AcceptSuite project and select Run As-> Run Configuration.
 		
-    ![Image of Click-Publish](acceptsuiteservice/documents/images/eclipse-build.PNG)		
+    ![Image of Click-Publish](documents/images/eclipse-build.PNG)		
 			
 * Start the server->Next->Finish.
 	
-	![Image of Publish-Folder](acceptsuiteservice/documents/images/eclipse-apache-run.PNG)
+	![Image of Publish-Folder](documents/images/eclipse-apache-run.PNG)
 		
 * Verify the Publish in the Output Section.
 	
-	![Image of Publish-Succeeded](acceptsuiteservice/documents/images/eclipse-apache-output.PNG)
+	![Image of Publish-Succeeded](documents/images/eclipse-apache-output.PNG)
 	
 ### Create Website on Apache Tomcat Server
 
@@ -68,11 +68,11 @@ Windows desktop operating systems
 *	Select Tomcat v7.0 Server
 *	Select Server runtime environment. Press add
 
-	![Add-Website](acceptsuiteservice/documents/images/Add-Website-Apache.png)
+	![Add-Website](documents/images/Add-Website-Apache.png)
 	
 *	Select the folder where you extracted the server files that you have downloaded
 
-	![Add-Website](acceptsuiteservice/documents/images/Add-Website-Server.png)
+	![Add-Website](documents/images/Add-Website-Server.png)
 
 ## Proxy Configuration
 
@@ -80,7 +80,7 @@ Windows desktop operating systems
 
 * Click on Environment Variables.
 
-![Environment-Variables.PNG](acceptsuiteservice/documents/images/Environment-Variables.PNG)
+![Environment-Variables.PNG](documents/images/Environment-Variables.PNG)
 
 * Add System Variables
 
@@ -106,7 +106,7 @@ Windows desktop operating systems
 	
 	https.proxyPassword value should be **Your NTPassword**
 	
-	![System-Variables.PNG](acceptsuiteservice/documents/images/System-Variables.PNG)
+	![System-Variables.PNG](documents/images/System-Variables.PNG)
 	
 * Click OK.
 	
@@ -125,4 +125,4 @@ URL: https://<IPAddress>:<PortNumber>/Acceptsuit/api/ValidateCustomer?apiLoginId
 * Response : 
 {"successValue":"I00001 Successful.","errorMessage":null,"status":true}
 
-![Service-Response.PNG](acceptsuiteservice/documents/images/Service-Response.PNG)
+![Service-Response.PNG](documents/images/Service-Response.PNG)
