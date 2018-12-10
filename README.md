@@ -56,8 +56,8 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * Open the folder **AcceptSuite-JavaWebService-API**
 
-* [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/AcceptSuit-Java/tree/master/AcceptSuite-JavaWebService-API#deploy-java-web-service-api-application-to-apache-tomcat-server)
-
+* [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#deploy-java-web-service-api-application-to-apache-tomcat-server)
+                                                                           
 * Once deployed Successfully , update the URL's in Constants.js file as described below.
 
 * **Constants.js file contains Keys which is used globally across the application.**
