@@ -44,16 +44,6 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 ![Image of FolderStructure](acceptsuiteservice/documents/images/FolderStructure.PNG)
 
-## Creation of Web Dynamic Project using Eclipse IDE for UI
-
-* Open Eclipse IDE and Create a web dynamic project name as AcceptScript.
-
-![Image of NewProjectUI](acceptsuiteservice/documents/images/NewProjectUI.PNG)
-
-* Copy all the files and folders from accept-sample-app-java-master folder except AcceptSuite-JavaWebService-API folder and paste it in WebContent Folder of created web dynamic project.
-
-![Image of UIWebContent](acceptsuiteservice/documents/images/UIWebContent.PNG)
-
 * Open the folder **AcceptSuite-JavaWebService-API**
 
 * [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#deploy-java-web-service-api-application-to-apache-tomcat-server)
