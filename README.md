@@ -60,29 +60,29 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 The URLs should be provided with static port number in the following format.
 
-**https://localhost:9443/AcceptSuite/api/ApiMethodName **
+**https://localhost:9444/acceptsuiteservice/rest/api/acceptjs **
 
-* ** ApiMethodName ** parameter is dynamic and that need to be replaced with Product Type name 
+* ApiMethodName parameter is dynamic and that need to be replaced with Product Type name 
 detailed description is explained below.
 
 * AcceptJSRequestUrl/AcceptUI.JS RequestUrl : URL to invoke Accept JS web service.
 
-	**Sample URL: https://localhost:9443/Acceptsuite/api/AcceptJS**
+	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/acceptjs**
 
 
 * AcceptHostedRequestUrl : URL to get the token value for Accept Hosted.
 
-	**Sample URL: https://localhost:9443/AcceptSuite/api/AcceptHosted**
+	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/accepthosted**
 
 
 * AcceptCustomerRequestUrl : URL to get the token value for Accept Customer.
 
-	**Sample URL: https://localhost:9443/AcceptSuite/api/AcceptCustomer**
+	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/acceptcustomer**
 
 
 * ValidateCustomerRequestUrl : URL to invoke a web api method to validate customer ID.
 
-	**Sample URL: https://IPAddress:9443/AcceptSuite/api/ValidateCustomer**
+	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/validatecustomer**
 
 ## Merchant Authentication Details: 
 
