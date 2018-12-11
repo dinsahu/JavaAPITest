@@ -118,21 +118,21 @@ The following are the parameters with values that remains constant throughout th
 
 * Import acceptsuiteservice folder in Eclipse IDE.
 
-	![Image of Open-Solution](documents/images/eclipse-import.PNG)
+	![Image of Open-Solution](acceptsuiteservice/documents/images/eclipse-import.PNG)
 
 * Build the Application.
 
 * Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
-    ![Image of Click-Publish](documents/images/eclipse-build.PNG)		
+    ![Image of Click-Publish](acceptsuiteservice/documents/images/eclipse-build.PNG)		
 			
 * Start the server->Next->Finish.
 	
-	![Image of Publish-Folder](documents/images/eclipse-apache-run.PNG)
+	![Image of Publish-Folder](acceptsuiteservice/documents/images/eclipse-apache-run.PNG)
 		
 * Verify the Publish in the Output Section.
 	
-	![Image of Publish-Succeeded](documents/images/eclipse-apache-output.PNG)
+	![Image of Publish-Succeeded](acceptsuiteservice/documents/images/eclipse-apache-output.PNG)
 		
 ## browse the website
 
