@@ -136,6 +136,6 @@ The following are the parameters with values that remains constant throughout th
 		
 ## browse the website
 
-Sample URL: https://10.173.125.203:9443/AcceptScript/index_all.html
+Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 ![Image of dashboard](acceptsuiteservice/documents/images/dashboard.PNG)
