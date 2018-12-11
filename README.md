@@ -101,7 +101,7 @@ The following are the parameters with values that remains constant throughout th
 ![Image of apiTransactionKey](acceptsuiteservice/documents/images/apiTransactionKey.PNG)
 
 
-### Create Website on Apache Tomcat Server
+### Steps to create the server in Eclipse IDE
 
 *	Open Server window
 *	New > Server
@@ -114,6 +114,18 @@ The following are the parameters with values that remains constant throughout th
 
 	![Add-Website](acceptsuiteservice/documents/images/Add-Website-Server.png)
 	
+### Publish AcceptSuite Web Service Application with Eclipse IDE.
+
+* Import acceptsuiteservice folder in Eclipse IDE.	
+
+* Build the Application.
+
+* Right-click on the AcceptSuite project and select Run As-> Run Configuration.
+
+* Start the server->Next->Finish.
+
+* Verify the Publish in the Output Section.
+		
 ## browse the website
 
 Sample URL: https://10.173.125.203:9443/AcceptScript/index_all.html
