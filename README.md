@@ -1,4 +1,4 @@
-# Accept Suite Integration with Java Web Service API
+# Deploy Accept Suite Java Application
 
 ## Very detailed explanation of each product type.
 
