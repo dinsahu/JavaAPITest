@@ -14,7 +14,7 @@ https://developer.authorize.net/api/reference/features/acceptjs.html
 https://developer.authorize.net/api/reference/features/accept_hosted.html
 https://developer.authorize.net/api/reference/features/customer_profiles.html#Using_the_Accept_Customer_Hosted_Form
 
-## Two ways to deploy Accept Suite .Net Application
+## Two ways to deploy Accept Suite Java Application
 
 ## [Manual Deployment](https://github.com/dinsahu/AcceptSuit-Java#step-by-step-guide-for-manual-deployment)
 
