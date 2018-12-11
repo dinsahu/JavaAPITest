@@ -40,17 +40,21 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * UnZip the folder accept-sample-app-java-master.zip
 
-* Once UnZipped , accept-sample-app-java-master Folder contains css, js , HTML files along with few folders.
+* Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
 
 ![Image of FolderStructure](acceptsuiteservice/documents/images/FolderStructure.PNG)
 
-* Open the folder **AcceptSuite-JavaWebService-API**
+* Open the folder **acceptsuiteservice**
 
 * [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#deploy-java-web-service-api-application-to-apache-tomcat-server)
                                                                            
 * Once deployed Successfully , update the URL's in Constants.js file as described below.
 
-* **Constants.js file contains Keys which is used globally across the application.**
+* **Constants.js file is located inside scripts folder in the js folder.** 
+
+![Image of FolderStructure](acceptsuiteservice/documents/images/folderpath.PNG)
+
+* Constants.js file contains Keys which is used globally across the application. 
 
 ## API URL's Section:
 
