@@ -38,30 +38,9 @@ Windows desktop operating systems
   
 	![Image of Apache tomcat](documents/images/Apache-tomcat-openssl.PNG)
 
-* Open the browser and search the URL(e.g. https://localhost:9443/).
+* Open the browser and search the URL(e.g. https://localhost:9444/).
 
-	
-### Publish  AcceptSuite Web Service Application with Eclipse IDE.
-
-* Import AcceptSuite and ane_java_sdk folders in Eclipse IDE.
-
-	![Image of Open-Solution](documents/images/eclipse-import.PNG)
-
-* Build the Application.
-
-* Right-click on the AcceptSuite project and select Run As-> Run Configuration.
-		
-    ![Image of Click-Publish](documents/images/eclipse-build.PNG)		
-			
-* Start the server->Next->Finish.
-	
-	![Image of Publish-Folder](documents/images/eclipse-apache-run.PNG)
-		
-* Verify the Publish in the Output Section.
-	
-	![Image of Publish-Succeeded](documents/images/eclipse-apache-output.PNG)
-	
-### Create Website on Apache Tomcat Server
+### Create the server on Apache Tomcat Server
 
 *	Open Server window
 *	New > Server
@@ -73,6 +52,26 @@ Windows desktop operating systems
 *	Select the folder where you extracted the server files that you have downloaded
 
 	![Add-Website](documents/images/Add-Website-Server.png)
+	
+### Publish AcceptSuite Web Service Application with Eclipse IDE.
+
+* Import acceptsuiteservice folder in Eclipse IDE.
+
+	![Image of Open-Solution](acceptsuiteservice/documents/images/eclipse-import.PNG)
+
+* Build the Application.
+
+* Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
+		
+    ![Image of Click-Publish](acceptsuiteservice/documents/images/eclipse-build.PNG)		
+			
+* Start the server->Next->Finish.
+	
+	![Image of Publish-Folder](acceptsuiteservice/documents/images/eclipse-apache-run.PNG)
+		
+* Verify the Publish in the Output Section.
+	
+	![Image of Publish-Succeeded](acceptsuiteservice/documents/images/eclipse-apache-output.PNG)
 
 ## Proxy Configuration
 
@@ -114,13 +113,13 @@ Windows desktop operating systems
 
 For Instance we will verify one of the API Method Validate Customer.
 
-URL: https://<IPAddress>:<PortNumber>/Acceptsuit/api/ValidateCustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
+URL: https://<IPAddress>:<PortNumber>/acceptsuiteservice/rest/api/ValidateCustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
 
 * Sample Request URL
 
-**Validate Customer API**: https://10.173.125.203:9443/Acceptsuit/api/ValidateCustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
+**Validate Customer API**: https://10.173.125.203:9444/acceptsuiteservice/rest/api/ValidateCustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
 
-**Accept JS/UI**: https://10.173.125.203:9443/Acceptsuit/api/AcceptJS?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&token=eyJjb2RlIjoiNTBfMl8wNjAwMDUyMkIzMkVGQTMyOURENzIzMkFCRENERTczM0JCQkY5RTEyMDdGOUUyMEQxQzJFNEMwNjk0QTQzNjdCQUY5NDZFMDRFNkNBRkRCOEZFQjA4NDI5MjE5OEQyOUI2ODdDMDc3IiwidG9rZW4iOiI5NTM4OTk0MTEwNDY1ODgzMjA0NjAzIiwidiI6IjEuMSJ9
+**Accept JS/UI**: https://10.173.125.203:9444/acceptsuiteservice/rest/api/AcceptJS?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&token=eyJjb2RlIjoiNTBfMl8wNjAwMDUyMkIzMkVGQTMyOURENzIzMkFCRENERTczM0JCQkY5RTEyMDdGOUUyMEQxQzJFNEMwNjk0QTQzNjdCQUY5NDZFMDRFNkNBRkRCOEZFQjA4NDI5MjE5OEQyOUI2ODdDMDc3IiwidG9rZW4iOiI5NTM4OTk0MTEwNDY1ODgzMjA0NjAzIiwidiI6IjEuMSJ9
 
 * Response : 
 {"successValue":"I00001 Successful.","errorMessage":null,"status":true}
