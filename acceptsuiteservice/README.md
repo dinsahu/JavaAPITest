@@ -40,7 +40,7 @@ Windows desktop operating systems
 
 * Open the browser and search the URL(e.g. https://localhost:9444/).
 
-### Create the server in Eclipse IDE.
+### Steps to create the server in Eclipse IDE
 
 *	Open Server window
 *	New > Server
