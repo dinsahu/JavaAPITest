@@ -163,7 +163,7 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 * Open the folder **scripts**
 
-![Image of downloadToGitHubZipFile](acceptsuiteservice/documents/images/downloadToGitHubZipFile.PNG)
+![Image of downloadToGitZipFile](acceptsuiteservice/documents/images/downloadToGitZipFile.PNG)
 
 ### Mandatory steps to be performed before running .sh file
 
