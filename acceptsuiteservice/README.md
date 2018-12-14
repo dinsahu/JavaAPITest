@@ -18,8 +18,6 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
 
 Windows desktop operating systems
 
-* Go to http://tomcat.apache.org/download-70.cgi then download and install Tomcat.
-
 * Set JAVA_HOME environment variable in Windows by Click on Start button in Windows and goto Control Panel->System->Advanced system setting->Environment Variables and give path of JDK installed directory.
 
 * Set JRE_HOME environment variable in Windows by Click on Start button in Windows and goto Control Panel->System->Advanced system setting->Environment Variables and give path of JRE installed directory.
