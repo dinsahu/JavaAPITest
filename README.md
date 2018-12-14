@@ -19,16 +19,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 ## [Manual Deployment](https://github.com/dinsahu/AcceptSuit-Java#step-by-step-guide-for-manual-deployment)
 ## [Automatic Deployment](https://github.com/dinsahu/JavaAPITest#step-by-step-guide-for-automatic-deployment)
 
-## Step by Step Guide for Manual Deployment:
-
-## Prerequisite:
-*	Windows 10 Professional.
-*	JDK 1.8 or higher version
-*	Eclipse Oxygen IDE or any editor of your choice.
-*	Apache Tomcat7.0 Server or higher version.
-*   [Apache Tomcat 7.0 Server OpenSSL configuration](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
-
-## Steps to download the code from the repository:
+## Steps to download the code from the repository.
 
 * Click on Clone or Download button from the repository.
 
@@ -41,6 +32,15 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 * Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
 
 ![Image of FolderStructure](acceptsuiteservice/documents/images/FolderStructure.PNG)
+
+## Step by Step Guide for Manual Deployment:
+
+## Prerequisite:
+*	Windows 10 Professional.
+*	JDK 1.8 or higher version
+*	Eclipse Oxygen IDE or any editor of your choice.
+*	Apache Tomcat7.0 Server or higher version.
+*   [Apache Tomcat 7.0 Server OpenSSL configuration](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
 
 * Open the folder **acceptsuiteservice**
 
