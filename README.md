@@ -26,6 +26,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	JDK 1.8 or higher version
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
+*   [Apache Tomcat 7.0 Server OpenSSL configuration](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
 
 ## Steps to download the code from the repository:
 
@@ -148,7 +149,7 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 *	JDK 1.8 or higher version
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
-*   Apache Tomcat 7.0 Server OpenSSL configuration(https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
+*   Apache Tomcat 7.0 Server OpenSSL configuration.
 
 ## Steps to download the code from the repository:
 
@@ -160,9 +161,9 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 * Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
-![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
-
 * Open the folder **acceptsuiteservice**
+
+![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
 
 ### Mandatory steps to be performed before running .sh file
 
