@@ -148,6 +148,7 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 *	JDK 1.8 or higher version
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
+*   Apache Tomcat 7.0 Server OpenSSL configuration(https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
 
 ## Steps to download the code from the repository:
 
@@ -157,18 +158,13 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 ![Image of CloneorDownloadButton](acceptsuiteservice/documents/images/CloneorDownloadButton.PNG)
 
-* Click on Download ZIP and choose the webapps folder inside tomcat server has installed.
+* Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
-![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/tomcatwebapps.PNG)
-
-* UnZip the folder accept-sample-app-java-master.zip
-
-* Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
-
-![Image of FolderStructure](acceptsuiteservice/documents/images/FolderStructure.PNG)
+![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
 
 * Open the folder **acceptsuiteservice**
 
-### Mandatory steps to be performed before running bat file
+### Mandatory steps to be performed before running .sh file
 
-* 
+*  Open deploy.sh file and update the folder path where apache tomcat server has installed(e.g. C:/server/apache-tomcat).
+*  Update IPAddress and port in the URL.
