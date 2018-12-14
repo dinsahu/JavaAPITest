@@ -36,11 +36,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 ![Image of CloneorDownloadButton](acceptsuiteservice/documents/images/CloneorDownloadButton.PNG)
 
-* Click on Download ZIP and choose the folder C:\GithubLocal to save.
-
-![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
-
-* UnZip the folder accept-sample-app-java-master.zip
+* Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
 * Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
 
@@ -173,7 +169,6 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 ### Run the batch file
 
 *  Run deploy.sh file located inside the scripts folder.
-*  .sh file internally will take the commands from deploy.sh file and will host the Accept Suite Application.
 *  Once shell script file successfully execute it will automatically launch the Accept Suite URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html in default Web Browser.
 
 ![Image of dashboard](acceptsuiteservice/documents/images/dashboard.PNG)
