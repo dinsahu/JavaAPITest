@@ -167,5 +167,10 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 ### Mandatory steps to be performed before running .sh file
 
-*  Open deploy.sh file and update the folder path where apache tomcat server has installed(e.g. C:/server/apache-tomcat).
-*  Update IPAddress and port in the URL.
+*  Open deploy.sh file and update the folder path in line no.1:TOMCAT,line no.7:BUILD and line no.8:WAR_FILE.
+*  Update IPAddress and port in the URL(Line no.45).
+*  Run deploy.sh file located inside the scripts folder.
+*  .sh file internally will take the commands from deploy.sh file and will host the Accept Suite Application.
+*  Once shell script file successfully execute it will automatically launch the Accept Suite URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html in default Web Browser.
+
+![Image of dashboard](acceptsuiteservice/documents/images/dashboard.PNG)
