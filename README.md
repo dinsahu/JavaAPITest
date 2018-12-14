@@ -17,6 +17,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 ## Two ways to deploy Accept Suite Java Application
 
 ## [Manual Deployment](https://github.com/dinsahu/AcceptSuit-Java#step-by-step-guide-for-manual-deployment)
+## [Automatic Deployment]()
 
 ## Step by Step Guide for Manual Deployment:
 
@@ -139,3 +140,11 @@ The following are the parameters with values that remains constant throughout th
 Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 ![Image of dashboard](acceptsuiteservice/documents/images/dashboard.PNG)
+
+## Step by Step Guide for Automatic Deployment
+
+## Prerequisite:
+*	Windows 10 Professional.
+*	JDK 1.8 or higher version
+*	Eclipse Oxygen IDE or any editor of your choice.
+*	Apache Tomcat7.0 Server or higher version.
