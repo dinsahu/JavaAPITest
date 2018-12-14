@@ -41,7 +41,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
-*  [Download the code from the repository] (https://github.com/dinsahu/JavaAPITest#steps-to-download-the-code-from-the-repository)
+*  [Download the code from the repository] (https://github.com/dinsahu/JavaAPITest#steps-to-download-the-code-from-the-repository).
 * Open the folder **acceptsuiteservice**
 
 * [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#deploy-java-web-service-api-application-to-apache-tomcat-server)
