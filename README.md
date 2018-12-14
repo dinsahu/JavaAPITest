@@ -40,15 +40,15 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	JDK 1.8 or higher version
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
-*   [Apache Tomcat 7.0 Server OpenSSL configuration](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
-
+*  [Apache Tomcat 7.0 Server OpenSSL configuration](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#apache-tomcat-server-configuration).
+*  [Download the code from the repository] (https://github.com/dinsahu/JavaAPITest#steps-to-download-the-code-from-the-repository)
 * Open the folder **acceptsuiteservice**
 
 * [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#deploy-java-web-service-api-application-to-apache-tomcat-server)
                                                                            
-* Once deployed Successfully , update the URL's in Constants.js file as described below.
+* Once deployed Successfully by following the steps mentioned in the above link, update the URL's in Constants.js file as described below.
 
-* **Constants.js file is located inside scripts folder in the js folder.** 
+* Constants.js file is located inside scripts folder in the path \WebApp\scripts\js.
 
 ![Image of FolderStructure](acceptsuiteservice/documents/images/folderpath.PNG)
 
