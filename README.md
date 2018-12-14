@@ -17,7 +17,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 ## Two ways to deploy Accept Suite Java Application
 
 ## [Manual Deployment](https://github.com/dinsahu/AcceptSuit-Java#step-by-step-guide-for-manual-deployment)
-## [Automatic Deployment]()
+## [Automatic Deployment](https://github.com/dinsahu/JavaAPITest#step-by-step-guide-for-automatic-deployment)
 
 ## Step by Step Guide for Manual Deployment:
 
@@ -148,3 +148,27 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 *	JDK 1.8 or higher version
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
+
+## Steps to download the code from the repository:
+
+* Click on Clone or Download button from the repository.
+
+* Popup Displays 2 Options Open in Desktop or Download ZIP
+
+![Image of CloneorDownloadButton](acceptsuiteservice/documents/images/CloneorDownloadButton.PNG)
+
+* Click on Download ZIP and choose the folder where tomcat server has installed.
+
+![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
+
+* UnZip the folder accept-sample-app-java-master.zip
+
+* Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
+
+![Image of FolderStructure](acceptsuiteservice/documents/images/FolderStructure.PNG)
+
+* Open the folder **acceptsuiteservice**
+
+### Mandatory steps to be performed before running bat file
+
+* 
