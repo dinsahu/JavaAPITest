@@ -157,9 +157,9 @@ Sample URL: https://10.173.125.203:9444/acceptsuiteservice/index_all.html
 
 ![Image of CloneorDownloadButton](acceptsuiteservice/documents/images/CloneorDownloadButton.PNG)
 
-* Click on Download ZIP and choose the folder where tomcat server has installed.
+* Click on Download ZIP and choose the webapps folder inside tomcat server has installed.
 
-![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/DownloadToGitHubFolder.PNG)
+![Image of DownloadToGitHubFolder](acceptsuiteservice/documents/images/tomcatwebapps.PNG)
 
 * UnZip the folder accept-sample-app-java-master.zip
 
