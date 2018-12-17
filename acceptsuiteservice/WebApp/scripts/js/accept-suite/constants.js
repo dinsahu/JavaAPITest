@@ -17,17 +17,7 @@ var globalVars = {
 	AcceptCustomerRequestUrl : 'https://10.173.125.203:9444/acceptsuiteservice/rest/api/acceptcustomer',
 
 	ValidateCustomerRequestUrl : 'https://10.173.125.203:9444/acceptsuiteservice/rest/api/validatecustomer',
+    // available customer id
 
-	// below parameters is used to submit form with token value
-	HostedFormUrl : 'https://test.authorize.net/payment/payment',
-
-	CustomerFormUrl : 'https://test.authorize.net/customer/manage',
-
-	// IFrameCommunicatorUrl
-	IFrameCommunicatorUrl: window.location.origin + '/acceptsuiteservice/iframeCommunicator.html',
-
-	// available customer id
-
-	ValidCustomer : '1916219194'
-
-}
+    ValidCustomer : '1916219194'
+};

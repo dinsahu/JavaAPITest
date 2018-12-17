@@ -215,9 +215,10 @@ direction: row;
 {
     margin-bottom: 0;
 }
-.alert p:first-child
+.alert p#errDetails
 {
     font-weight: bold;
+    margin-bottom:5px;
 }
 .lblFields
 {
@@ -351,16 +352,23 @@ margin-right: 3px;
 .confirmDiv{
     padding-top: 1%;display: none;
 }
-.confirmDivUI{
+#confirmationPage {
+    display: none;
+}
+.confirmDivUI {
     margin: 0 auto;
     float: inherit;
 }
-.hostedPage
-{
+
+.hostedPage {
     margin: 0 auto;
     float: inherit;
 }
 .confirmDiv{
+    margin: 0 auto;
+    float: inherit;
+}
+.confirmationDiv {
     margin: 0 auto;
     float: inherit;
 }
