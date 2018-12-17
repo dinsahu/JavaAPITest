@@ -50,7 +50,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * Constants.js file is located inside scripts folder in the path \WebApp\scripts\js.
 
-![Image of FolderStructure](acceptsuiteservice/documents/images/folderpath.PNG)
+![Image of FolderStructure](acceptsuiteservice/documents/images/folderpath.PNG) 
 
 * Constants.js file contains Keys which is used globally across the application. 
 
