@@ -44,8 +44,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *  [Download the code from the repository](https://github.com/dinsahu/JavaAPITest#steps-to-download-the-code-from-the-repository).
 *  Open the folder **acceptsuiteservice**
 *  [Publish AcceptSuite Web Service Application with Eclipse IDE](https://github.com/dinsahu/JavaAPITest#publish-acceptsuite-web-service-application-with-eclipse-ide)
-
-* [Detailed steps are explained on how to deploy on Apache Tomcat Server.](https://github.com/dinsahu/JavaAPITest/tree/master/acceptsuiteservice#deploy-java-web-service-api-application-to-apache-tomcat-server)
+*  [Steps to create the server in Eclipse IDE](https://github.com/dinsahu/JavaAPITest#steps-to-create-the-server-in-eclipse-ide)
                                                                            
 * Once deployed Successfully by following the steps mentioned in the above link, update the URL's in Constants.js file as described below.
 
