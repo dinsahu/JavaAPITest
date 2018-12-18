@@ -16,7 +16,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 ## Two ways to deploy Accept Suite Java Application
 
-## [Manual Deployment](https://github.com/dinsahu/AcceptSuit-Java#step-by-step-guide-for-manual-deployment)
+## [Manual Deployment](https://github.com/dinsahu/JavaAPITest#step-by-step-guide-for-manual-deployment)
 ## [Automatic Deployment](https://github.com/dinsahu/JavaAPITest#step-by-step-guide-for-automatic-deployment)
 
 ## Steps to download the code from the repository.
