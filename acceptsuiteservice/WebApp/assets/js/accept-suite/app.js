@@ -50,7 +50,7 @@ function checkForInvalidProduct(pageurl) {
 }
 
 //If invalid customer is passed in accept hosted/accept customer
-function invalidCustomer() {
+function isInvalidCustomer() {
     elements = document.getElementsByClassName('productCont');
     //The content of all the 4 product types is disabled on the page
     Array.prototype.forEach.call(elements, function (element) {
@@ -89,7 +89,6 @@ function loadpage() {
             //Below function checks if customer ID is passed in the request URL
             checkForInvalidProduct(pageurl);
         } else if (product === 'accepthosted') { //If the user clicks Accept Hosted product type in the dashboard page, the following code gets executed.
-            activeCont = 'accepthosted';
             //Below logic is to check if there are more than one parameter passed in the URL
             if (pageurl.toLowerCase().indexOf('&') > 0) {
                  //Customer ID is an optional parameter for Accept Hosted product type
@@ -105,7 +104,7 @@ function loadpage() {
                         acceptHosted(customerId);
                     } else {
                         //If the invalid customer id declared in the URL, then user gets redirected to the error message section
-                        invalidCustomer();
+                        isInvalidCustomer();
                     }
                 } else { //Below code gets executed when the user passes when there are more than one parameters (other than customer id) which are invalid in the request URL
                     //Below code gets executed when user passes invalid parameters in the URL
@@ -116,7 +115,6 @@ function loadpage() {
                 acceptHosted('');
             }
         } else if (product === 'acceptcustomer') { //If the user clicks Accept Customer product type in the dashboard page, the following code gets executed.
-            activeCont = 'acceptcustomer';
             //Below line populates the customer id textbox with a valid customer id
             document.getElementById('txtCustomerId').value = globalVars.ValidCustomer;
             //Below code gets executed when the user passes customer id in the request URL
@@ -139,7 +137,7 @@ function loadpage() {
                         acceptCustomer(customerId);
                     } else {
                         //If the invalid customer id declared in the URL, then user gets redirected to the error message section
-                        invalidCustomer();
+                        isInvalidCustomer();
                     }
                 } else { //If customer id is already validated in dashboard page
                     acceptCustomer(customerId);

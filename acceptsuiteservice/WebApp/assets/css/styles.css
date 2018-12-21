@@ -1,6 +1,6 @@
 body
 {
-       background: url('../../scripts/images/cartImages/background_cloth.jpg'); 
+       background: url('../../assets/images/cartImages/background_cloth.jpg'); 
     padding-top: 50px;
    /*font-family:  Century Gothic,Regular!important;*/
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
@@ -648,42 +648,42 @@ margin: 0 auto;float: inherit;display: none;
 
 /*For CARD icons*/
 .icon-type-visa{
-    background-image: url('../../scripts/images/icn_visacard_rest.png');
+    background-image: url('../../assets/images/icn_visacard_rest.png');
     width: 10.3%;
     background-repeat: no-repeat!important;
     background-position: 100%;
     background-size: 13%;
 }
 .icon-type-jcb{
-    background-image: url('../../scripts/images/icn_jcbcard_rest.png');
+    background-image: url('../../assets/images/icn_jcbcard_rest.png');
     width: 10.3%;
     background-repeat: no-repeat!important;
     background-position: right;
     background-size: 13%;
 }
 .icon-type-amex{
-    background-image: url('../../scripts/images/icn_amexcard_rest.png');
+    background-image: url('../../assets/images/icn_amexcard_rest.png');
     width: 10.3%;
     background-repeat: no-repeat!important;
     background-position: right;
     background-size: 13%;
 }
 .icon-type-discover{
-    background-image: url('../../scripts/images/icn_discovercard_rest.png');
+    background-image: url('../../assets/images/icn_discovercard_rest.png');
     width: 10.3%;
     background-repeat: no-repeat!important;
     background-position: right;
     background-size: 10%;
 }
 .icon-type-mastercard{
-    background-image: url('../../scripts/images/icn_mastercard_rest.png');
+    background-image: url('../../assets/images/icn_mastercard_rest.png');
     width: 10.3%;
     background-repeat: no-repeat!important;
     background-position: right;
     background-size: 13%;
 }
 .icon-type-dinersclub{
-    background-image: url('../../scripts/images/icn_dinersclubcard_rest.png');
+    background-image: url('../../assets/images/icn_dinersclubcard_rest.png');
     width: 10.3%;
     background-repeat: no-repeat!important;
     background-position: right;

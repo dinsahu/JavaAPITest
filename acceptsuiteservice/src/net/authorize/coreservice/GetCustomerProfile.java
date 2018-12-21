@@ -10,7 +10,7 @@ public class GetCustomerProfile {
 	public static ANetApiResponse run(String apiLoginId, String transactionKey, String customerProfileId) {
 
         ApiOperationBase.setEnvironment(Environment.SANDBOX);
-
+        // define the merchant information (authentication / transaction id)
         MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
         merchantAuthenticationType.setName(apiLoginId);
         merchantAuthenticationType.setTransactionKey(transactionKey);

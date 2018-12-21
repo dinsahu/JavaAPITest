@@ -11,11 +11,6 @@ import net.authorize.coreservice.GetAcceptCustomerProfilePage;
 import net.authorize.coreservice.GetCustomerProfile;
 import net.authorize.coreservice.GetAnAcceptPaymentPage;
 
-/**
- * AcceptSuiteService
- *
- */
-
 @Path("/api")
 public class AcceptSuiteService {
 	/**
@@ -119,13 +114,15 @@ public class AcceptSuiteService {
 	public AcceptResponse retrieveAcceptHostedFormToken(@QueryParam("apiLoginId") String apiLoginId,
 			@QueryParam("apiTransactionKey") String apiTransactionKey,
 			@QueryParam("iFrameCommunicatorUrl") String iFrameCommunicatorUrl,
-			@QueryParam("customerProfileId") String customerProfileId) {
+			@QueryParam("customerId") String customerId) {
+		
+		System.out.println("customerId1="+customerId );
 		AcceptResponse objAcceptResponse = new AcceptResponse();
 		try {
 			
 			// retrieve a form token which can be used to request the Authorize.Net Accept hosted payment page
 			ANetApiResponse response = GetAnAcceptPaymentPage.run(apiLoginId, apiTransactionKey, iFrameCommunicatorUrl,
-					customerProfileId);
+					customerId);
 			if (response != null) {
 				if (response.getMessages() != null && response.getMessages().getResultCode() == MessageTypeEnum.OK) {
 					objAcceptResponse.setSuccessValue(((net.authorize.api.contract.v1.GetHostedPaymentPageResponse) response)

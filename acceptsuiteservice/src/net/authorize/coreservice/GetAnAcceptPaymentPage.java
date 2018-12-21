@@ -8,23 +8,27 @@ import net.authorize.api.controller.GetHostedPaymentPageController;
 
 public class GetAnAcceptPaymentPage {
 	
+
 	public static ANetApiResponse run(String apiLoginId, String transactionKey, String hostedPaymentIFrameCommunicatorUrl,String customerProfileId) {
-	         
-        ApiOperationBase.setEnvironment(Environment.SANDBOX);
+	    
+		ApiOperationBase.setEnvironment(Environment.SANDBOX);
+        // define the merchant information (authentication / transaction id)
         MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
         merchantAuthenticationType.setName(apiLoginId);
         merchantAuthenticationType.setTransactionKey(transactionKey);
         ApiOperationBase.setMerchantAuthentication(merchantAuthenticationType);
         
-        // Create the payment transaction request
-        CustomerProfilePaymentType custprofile = new CustomerProfilePaymentType();
-        custprofile.setCustomerProfileId(customerProfileId);
-        
         TransactionRequestType txnRequest = new TransactionRequestType();
         txnRequest.setTransactionType(TransactionTypeEnum.AUTH_CAPTURE_TRANSACTION.value());
         txnRequest.setAmount(new BigDecimal("99").setScale(2, RoundingMode.CEILING));
-        txnRequest.setProfile(custprofile);
- 
+        if (!customerProfileId.isEmpty()){
+        	CustomerProfilePaymentType custprofile = new CustomerProfilePaymentType();
+            custprofile.setCustomerProfileId(customerProfileId);
+            txnRequest.setProfile(custprofile);
+          }
+        
+        //IFrameCommunicator is used for accept hosted
+        //The URL of the iFrameCommunicator page is passed in hosted settings, which will allow Authorize.Net to embed the communicator page in the payment form
         SettingType setting1 = new SettingType();
         setting1.setSettingName("hostedPaymentButtonOptions");
         setting1.setSettingValue("{\"text\": \"Pay\"}");

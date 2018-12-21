@@ -3,7 +3,6 @@
 Developer Guide to deploy the Java Web Service API Application on Apache Tomcat Server.
 
 ## Prerequisite:
-*	Windows 10 Professional.
 *	JDK 1.8 or higher version.
 *   Maven 2.2.0 or higher version.
 *	Eclipse Oxygen IDE or any editor of your choice.
@@ -34,7 +33,7 @@ Windows desktop operating systems
   
   * Add Connector tag in server.xml file which is given in "conf" sub-directory of the Tomcat embed Eclipse installed directoryies.
   
-	![Image of Apache tomcat](documents/images/Apache-tomcat-openssl.PNG)
+	![Image of Apache tomcat](docs/images/Apache-tomcat-openssl.PNG)
 
 * Open the browser and search the URL(e.g. https://localhost:9444/).
 
@@ -45,31 +44,31 @@ Windows desktop operating systems
 *	Select Tomcat v7.0 Server
 *	Select Server runtime environment. Press add
 
-	![Add-Website](documents/images/Add-Website-Apache.png)
+	![Add-Website](docs/images/Add-Website-Apache.png)
 	
 *	Select the folder where you extracted the server files that you have downloaded
 
-	![Add-Website](documents/images/Add-Website-Server.png)
+	![Add-Website](docs/images/Add-Website-Server.png)
 	
 ### Publish AcceptSuite Web Service Application with Eclipse IDE.
 
 * Import acceptsuiteservice folder in Eclipse IDE.
 
-	![Image of Open-Solution](documents/images/eclipse-import.PNG)
+	![Image of Open-Solution](docs/images/eclipse-import.PNG)
 
 * Build the Application.
 
 * Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
-    ![Image of Click-Publish](documents/images/eclipse-build.PNG)		
+    ![Image of Click-Publish](docs/images/eclipse-build.PNG)		
 			
 * Start the server->Next->Finish.
 	
-	![Image of Publish-Folder](documents/images/eclipse-apache-run.PNG)
+	![Image of Publish-Folder](docs/images/eclipse-apache-run.PNG)
 		
 * Verify the Publish in the Output Section.
 	
-	![Image of Publish-Succeeded](documents/images/eclipse-apache-output.PNG)
+	![Image of Publish-Succeeded](docs/images/eclipse-apache-output.PNG)
 
 ## Proxy Configuration
 
@@ -77,7 +76,7 @@ Windows desktop operating systems
 
 * Click on Environment Variables.
 
-![Environment-Variables.PNG](documents/images/Environment-Variables.PNG)
+![Environment-Variables.PNG](docs/images/Environment-Variables.PNG)
 
 * Add System Variables
 
@@ -89,11 +88,11 @@ Windows desktop operating systems
 	
 	**https.proxyHost**
 	
-	 https.proxyHost value should be **userproxy.visa.com**
+	 https.proxyHost value should be **DomainName**
 	
 	**https.proxyPort**
 	
-	 https.proxyPort value should be **443**
+	 https.proxyPort value should be **PortNumber**
 	
 	**https.proxyUsername**
 	
@@ -103,10 +102,6 @@ Windows desktop operating systems
 	
 	https.proxyPassword value should be **Your NTPassword**
 	
-	![System-Variables.PNG](documents/images/System-Variables.PNG)
-	
-* Click OK.
-	
 ## browse the website. 
 
 For Instance we will verify one of the API Method Validate Customer.
@@ -115,11 +110,11 @@ URL: https://<IPAddress>:<PortNumber>/acceptsuiteservice/rest/api/validatecustom
 
 * Sample Request URL
 
-**Validate Customer API**: https://10.173.125.203:9444/acceptsuiteservice/rest/api/validatecustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
+**Validate Customer API**: https://localhost:9444/acceptsuiteservice/rest/api/validatecustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
 
-**Accept JS/UI**: https://10.173.125.203:9444/acceptsuiteservice/rest/api/acceptjs?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&token=eyJjb2RlIjoiNTBfMl8wNjAwMDUyMkIzMkVGQTMyOURENzIzMkFCRENERTczM0JCQkY5RTEyMDdGOUUyMEQxQzJFNEMwNjk0QTQzNjdCQUY5NDZFMDRFNkNBRkRCOEZFQjA4NDI5MjE5OEQyOUI2ODdDMDc3IiwidG9rZW4iOiI5NTM4OTk0MTEwNDY1ODgzMjA0NjAzIiwidiI6IjEuMSJ9
+**Accept JS/UI**: https://localhost:9444/acceptsuiteservice/rest/api/acceptjs?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&token=eyJjb2RlIjoiNTBfMl8wNjAwMDUyMkIzMkVGQTMyOURENzIzMkFCRENERTczM0JCQkY5RTEyMDdGOUUyMEQxQzJFNEMwNjk0QTQzNjdCQUY5NDZFMDRFNkNBRkRCOEZFQjA4NDI5MjE5OEQyOUI2ODdDMDc3IiwidG9rZW4iOiI5NTM4OTk0MTEwNDY1ODgzMjA0NjAzIiwidiI6IjEuMSJ9
 
 * Response : 
 {"successValue":"I00001 Successful.","errorMessage":null,"status":true}
 
-![Service-Response.PNG](documents/images/Service-Response.PNG)
+![Service-Response.PNG](docs/images/Service-Response.PNG)

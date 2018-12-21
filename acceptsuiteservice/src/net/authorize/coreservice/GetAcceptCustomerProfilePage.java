@@ -10,12 +10,14 @@ public class GetAcceptCustomerProfilePage {
 	public static ANetApiResponse run(String apiLoginId, String transactionKey, String customerProfileId,String hostedPaymentIFrameCommunicatorUrl) {
 
         ApiOperationBase.setEnvironment(Environment.SANDBOX);
-
+        // define the merchant information (authentication / transaction id)
         MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
         merchantAuthenticationType.setName(apiLoginId);
         merchantAuthenticationType.setTransactionKey(transactionKey);
         ApiOperationBase.setMerchantAuthentication(merchantAuthenticationType);
-          
+         
+        //IFrameCommunicator is used for accept customer
+        //The URL of the iFrameCommunicator page is passed in settings, which will allow Authorize.Net to embed the communicator page in the payment form
         SettingType setting1 = new SettingType();
         setting1.setSettingName("hostedProfileReturnUrl");
         setting1.setSettingValue("https://returnurl.com/return/");

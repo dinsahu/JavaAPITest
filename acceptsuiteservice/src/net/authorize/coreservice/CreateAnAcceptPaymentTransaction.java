@@ -21,9 +21,8 @@ public class CreateAnAcceptPaymentTransaction {
 	
 	public static ANetApiResponse run(String apiLoginId, String transactionKey, String token) {
 
-		//Common code to set for all requests
 		ApiOperationBase.setEnvironment(Environment.SANDBOX);
-
+		// define the merchant information (authentication / transaction id)
 		MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
 		merchantAuthenticationType.setName(apiLoginId);
 		merchantAuthenticationType.setTransactionKey(transactionKey);
@@ -73,7 +72,7 @@ public class CreateAnAcceptPaymentTransaction {
 		apiRequest.setTransactionRequest(txnRequest);
 		CreateTransactionController controller = new CreateTransactionController(apiRequest);
 		controller.execute();
-
+        
 		CreateTransactionResponse response = controller.getApiResponse();
 
 		if (response!=null) {
