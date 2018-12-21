@@ -67,7 +67,7 @@ On click of Done button, the page will be redirected to dashboard page.
 
 ### Understanding Accept.js Functionality
 
-[Accept.js client-side functionality is written in *accept.js* javascript file](https://github.com/dinsahu/accept-sample-app-java/blob/master/acceptsuiteservice/WebApp/assets/js/accept-suite/accept.js).
+[Accept.js client-side functionality is written in *accept.js* javascript file](https://github.com/dinsahu/JavaAPITest/blob/master/acceptsuiteservice/WebApp/assets/js/accept-suite/accept.js).
 
 As soon as the user gets redirected to the Accept.js page from the dashboard page, **showData** function gets executed.
 

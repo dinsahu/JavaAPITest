@@ -29,7 +29,7 @@ https://localhost:9444/acceptsuiteservice/index.html?producttype=accepthosted&Cu
 
 ## Workflow
 
-[Accept Hosted client-side functionality is written in *accept-hosted.js* javascript file](https://github.com/dinsahu/accept-sample-app-java/blob/master/acceptsuiteservice/WebApp/assets/js/accept-suite/accept-hosted.js).
+[Accept Hosted client-side functionality is written in *accept-hosted.js* javascript file](https://github.com/dinsahu/JavaAPITest/blob/master/acceptsuiteservice/WebApp/assets/js/accept-suite/accept-hosted.js).
 
 Step 1 : On loading of Accept Hosted page, there are two cases to be checked.
 
