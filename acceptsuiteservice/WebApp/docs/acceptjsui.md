@@ -55,7 +55,7 @@ Then the request is sent to the web service and based on the response code of th
 
 ### Understanding Accept.js UI Functionality
 
-[Accept.js UI client-side functionality is written in *accept.js* javascript file](https://github.com/dinsahu/JavaAPITest/blob/master/acceptsuiteservice/WebApp/assets/js/accept-suite/accept.js).
+**Accept.js UI client-side functionality is written in *accept.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\assets\js\accept-suite\accept.js).**
 
 When the user redirects from dashboard page to the Accept.js UI page, **acceptUI** function gets executed.
 
