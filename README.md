@@ -25,13 +25,13 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * Popup Displays 2 Options Open in Desktop or Download ZIP
 
-![Image of CloneorDownloadButton](acceptsuiteservice/docs/images/CloneorDownloadButton.PNG)
+![Image of CloneorDownloadButton](acceptsuiteservice/WebApp/docs/images/CloneorDownloadButton.PNG)
 
 * Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
 * Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
 
-![Image of FolderStructure](acceptsuiteservice/docs/images/FolderStructure.PNG)
+![Image of FolderStructure](acceptsuiteservice/WebApp/docs/images/FolderStructure.PNG)
 
 ## Step by Step Guide for Manual Deployment:
 
@@ -49,7 +49,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 * Constants.js file is located inside scripts folder in the path \WebApp\assets\js\accept-suite.
 
-![Image of FolderStructure](acceptsuiteservice/docs/images/folderpath.PNG) 
+![Image of FolderStructure](acceptsuiteservice/WebApp/docs/images/folderpath.PNG) 
 
 * Constants.js file contains Keys which is used globally across the application. 
 
@@ -87,15 +87,15 @@ The following are the parameters with values that remains constant throughout th
 
 * ClientKey 
 
-![Image of clientKey](acceptsuiteservice/docs/images/clientKey.PNG)
+![Image of clientKey](acceptsuiteservice/WebApp/docs/images/clientKey.PNG)
 
 * ApiLoginID
 
-![Image of apiLogin](acceptsuiteservice/docs/images/apiLogin.PNG)
+![Image of apiLogin](acceptsuiteservice/WebApp/docs/images/apiLogin.PNG)
 
 * ApiTransactionKey
 
-![Image of apiTransactionKey](acceptsuiteservice/docs/images/apiTransactionKey.PNG)
+![Image of apiTransactionKey](acceptsuiteservice/WebApp/docs/images/apiTransactionKey.PNG)
 
 
 ### Steps to create the server in Eclipse IDE
@@ -105,37 +105,37 @@ The following are the parameters with values that remains constant throughout th
 *	Select Tomcat v7.0 Server
 *	Select Server runtime environment. Press add
 
-	![Add-Website](acceptsuiteservice/docs/images/Add-Website-Apache.png)
+	![Add-Website](acceptsuiteservice/WebApp/docs/images/Add-Website-Apache.png)
 	
 *	Select the folder where you extracted the server files that you have downloaded
 
-	![Add-Website](acceptsuiteservice/docs/images/Add-Website-Server.png)
+	![Add-Website](acceptsuiteservice/WebApp/docs/images/Add-Website-Server.png)
 	
 ### Publish AcceptSuite Web Service Application with Eclipse IDE.
 
 * Import acceptsuiteservice folder in Eclipse IDE.
 
-	![Image of Open-Solution](acceptsuiteservice/docs/images/eclipse-import.PNG)
+	![Image of Open-Solution](acceptsuiteservice/WebApp/docs/images/eclipse-import.PNG)
 
 * Build the Application.
 
 * Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
-    ![Image of Click-Publish](acceptsuiteservice/docs/images/eclipse-build.PNG)		
+    ![Image of Click-Publish](acceptsuiteservice/WebApp/docs/images/eclipse-build.PNG)		
 			
 * Start the server->Next->Finish.
 	
-	![Image of Publish-Folder](acceptsuiteservice/docs/images/eclipse-apache-run.PNG)
+	![Image of Publish-Folder](acceptsuiteservice/WebApp/docs/images/eclipse-apache-run.PNG)
 		
 * Verify the Publish in the Output Section.
 	
-	![Image of Publish-Succeeded](acceptsuiteservice/docs/images/eclipse-apache-output.PNG)
+	![Image of Publish-Succeeded](acceptsuiteservice/WebApp/docs/images/eclipse-apache-output.PNG)
 		
 ## browse the website
 
 Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
 
-![Image of dashboard](acceptsuiteservice/docs/images/dashboard.PNG)
+![Image of dashboard](acceptsuiteservice/WebApp/docs/images/dashboard.PNG)
 
 ## Step by Step Guide for Automatic Deployment
 
@@ -151,13 +151,13 @@ Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
 
 * Popup Displays 2 Options Open in Desktop or Download ZIP
 
-![Image of CloneorDownloadButton](acceptsuiteservice/docs/images/CloneorDownloadButton.PNG)
+![Image of CloneorDownloadButton](acceptsuiteservice/WebApp/docs/images/CloneorDownloadButton.PNG)
 
 * Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
 * Open the folder **scripts**
 
-![Image of downloadToGitZipFile](acceptsuiteservice/docs/images/downloadToGitZipFile.PNG)
+![Image of downloadToGitZipFile](acceptsuiteservice/WebApp/docs/images/downloadToGitZipFile.PNG)
 
 ### Mandatory steps to be performed before running .sh file
 
@@ -169,4 +169,4 @@ Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
 *  Run deploy.sh file located inside the scripts folder.
 *  Once shell script file successfully execute it will automatically launch the Accept Suite URL: https://localhost:9444/acceptsuiteservice/index_all.html in default Web Browser.
 
-![Image of dashboard](acceptsuiteservice/docs/images/dashboard.PNG)
+![Image of dashboard](acceptsuiteservice/WebApp/docs/images/dashboard.PNG)
