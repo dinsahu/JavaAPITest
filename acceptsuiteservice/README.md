@@ -33,7 +33,7 @@ Windows desktop operating systems
   
   * Add Connector tag in server.xml file which is given in "conf" sub-directory of the Tomcat embed Eclipse installed directoryies.
   
-	![Image of Apache tomcat](docs/images/Apache-tomcat-openssl.PNG)
+	![Image of Apache tomcat](WebApp/docs/images/Apache-tomcat-openssl.PNG)
 
 * Open the browser and search the URL(e.g. https://localhost:9444/).
 
@@ -44,31 +44,31 @@ Windows desktop operating systems
 *	Select Tomcat v7.0 Server
 *	Select Server runtime environment. Press add
 
-	![Add-Website](docs/images/Add-Website-Apache.png)
+	![Add-Website](WebApp/docs/images/Add-Website-Apache.png)
 	
 *	Select the folder where you extracted the server files that you have downloaded
 
-	![Add-Website](docs/images/Add-Website-Server.png)
+	![Add-Website](WebApp/docs/images/Add-Website-Server.png)
 	
 ### Publish AcceptSuite Web Service Application with Eclipse IDE.
 
 * Import acceptsuiteservice folder in Eclipse IDE.
 
-	![Image of Open-Solution](docs/images/eclipse-import.PNG)
+	![Image of Open-Solution](WebApp/docs/images/eclipse-import.PNG)
 
 * Build the Application.
 
 * Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
-    ![Image of Click-Publish](docs/images/eclipse-build.PNG)		
+    ![Image of Click-Publish](WebApp/docs/images/eclipse-build.PNG)		
 			
 * Start the server->Next->Finish.
 	
-	![Image of Publish-Folder](docs/images/eclipse-apache-run.PNG)
+	![Image of Publish-Folder](WebApp/docs/images/eclipse-apache-run.PNG)
 		
 * Verify the Publish in the Output Section.
 	
-	![Image of Publish-Succeeded](docs/images/eclipse-apache-output.PNG)
+	![Image of Publish-Succeeded](WebApp/docs/images/eclipse-apache-output.PNG)
 
 ## Proxy Configuration
 
@@ -76,7 +76,7 @@ Windows desktop operating systems
 
 * Click on Environment Variables.
 
-![Environment-Variables.PNG](docs/images/Environment-Variables.PNG)
+![Environment-Variables.PNG](WebApp/docs/images/Environment-Variables.PNG)
 
 * Add System Variables
 
@@ -117,4 +117,4 @@ URL: https://<IPAddress>:<PortNumber>/acceptsuiteservice/rest/api/validatecustom
 * Response : 
 {"successValue":"I00001 Successful.","errorMessage":null,"status":true}
 
-![Service-Response.PNG](docs/images/Service-Response.PNG)
+![Service-Response.PNG](WebApp/docs/images/Service-Response.PNG)
