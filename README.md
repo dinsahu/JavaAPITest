@@ -117,10 +117,10 @@ The following are the parameters with values that remains constant throughout th
 * Import acceptsuiteservice folder in Eclipse IDE.
 
 	![Image of Open-Solution](acceptsuiteservice/WebApp/docs/images/eclipse-import.PNG)
+	
+* Open the **userInputs.json** file and change the PORT_NUMBER and HOST_NAME of the sytem or give localhost.	
 
 * Build the Application.
-
-* Open the **userInputs.json** file and change the PORT_NUMBER and HOST_NAME of the sytem or give localhost.
 
 * Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
