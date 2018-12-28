@@ -120,6 +120,8 @@ The following are the parameters with values that remains constant throughout th
 
 * Build the Application.
 
+* Open the **userInputs.json** file and change the PORT_NUMBER and HOST_NAME of the sytem or give localhost.
+
 * Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
     ![Image of Click-Publish](acceptsuiteservice/WebApp/docs/images/eclipse-build.PNG)		
