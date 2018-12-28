@@ -1,24 +1,40 @@
-var globalVars = {
+/*global
+$,window
+*/
+'use strict';
 
-	// Default sandbox credentials
+var jsondata = "";
+var globalVars = "";
+function loadJSON() {
+  $.ajax({
+      url: 'scripts/userInputs.json',
+      async: false,
+      dataType: 'json',
+      success: function (jsondata) {
+          globalVars = {
 
-	ClientKey: '6C47PepC2NyJ2dgTy89U56xnan24H3cb363wxvBC5DP9Cjk5Fwp6b4q2YBnjU2Xp',
+              // Default sandbox credentials
+        	  ClientKey : '885qTmu8Mk82TyJr3P8JZXRdeJnesy4LC4VM8XvvE9e78z6ENhR5zt82zW4kSGz5',
 
-    ApiLoginID: '78BZ5Xprry',
+        	  ApiLoginID : '6u3YgDH4e',
 
-    ApiTransactionKey: '8s2F95Q7brhHd7Tn',
+        	  ApiTransactionKey : '7RG599ZKdyfk248e',
 
-	// Web API URL's
+              // Web API URL's
+        	  AcceptJSRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/acceptjs',
 
-	AcceptJSRequestUrl : 'https://localhost:9444/acceptsuiteservice/rest/api/acceptjs',
+        	  AcceptHostedRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/accepthosted',
 
-	AcceptHostedRequestUrl : 'https://localhost:9444/acceptsuiteservice/rest/api/accepthosted',
+        	  AcceptCustomerRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/acceptcustomer',
 
-	AcceptCustomerRequestUrl : 'https://localhost:9444/acceptsuiteservice/rest/api/acceptcustomer',
+        	  ValidateCustomerRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/validatecustomer',
 
-	ValidateCustomerRequestUrl : 'https://localhost:9444/acceptsuiteservice/rest/api/validatecustomer',
-    
-	// available customer id
+              // available customer id
+        	  ValidCustomer : '1916219194'
 
-    ValidCustomer: '1813212446'
-};
+          };
+      }
+  });
+}
+window.onload = loadJSON();
+

@@ -14,7 +14,7 @@ function acceptCustomer(id) {
             apiLoginId: globalVars.ApiLoginID,//Value fetched from the constants.js file
             apiTransactionKey: globalVars.ApiTransactionKey,//Value fetched from the constants.js file
             customerId: customerId,
-            iFrameCommunicatorUrl: window.location.origin + '/acceptsuiteservice/iframeCommunicator.html'
+            iFrameCommunicatorUrl: window.location.origin + '/acceptsuite-service/iframeCommunicator.html'
         },
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',

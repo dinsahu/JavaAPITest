@@ -1,5 +1,5 @@
 /*global
-  window, document, acceptUI, validateCustomer, acceptHosted, globalVars,sessionStorage, acceptCustomer, unescape, getComputedStyle, CommunicationHandler
+  window, document, acceptUI, validateCustomer, acceptHosted, globalVars,sessionStorage, acceptCustomer, unescape, getComputedStyle, CommunicationHandler,loadJSON
 */
 'use strict';
 var activeCont = '';
@@ -159,7 +159,8 @@ function loadpage() {
     }
 }
 
-window.onload = loadpage();
+loadpage();
+
 //Navigation to accept suite pages on button click from dashboard page
 function LoadAcceptPage(pageType) {
     switch (pageType) {

@@ -1,11 +1,13 @@
 #!/bin/bash
 #Sets the folder path
-TOMCAT=C:/server/apache-tomcat
+TOMCAT=$(jq -r '.TOMCAT' userInputs.json)
+PORT=$(jq -r '.PORT' userInputs.json)
+IP_ADDRESS=$(jq -r '.IP_ADDRESS' userInputs.json)
 TOMCAT_WEBAPPS=$TOMCAT/webapps
 TOMCAT_CONFIG=$TOMCAT/conf/server.xml
 TOMCAT_START=$TOMCAT/bin/catalina.bat
 BUILD=$TOMCAT_WEBAPPS/acceptsuiteservice
-WAR_FILE=$BUILD/target/acceptsuiteservice-0.0.1-SNAPSHOT.war
+WAR_FILE=$BUILD/target/acceptsuite-service.war
 n=$((RANDOM%50+5))
 
 # Start build
@@ -42,5 +44,5 @@ $TOMCAT_START start
 sleep $n
 
 # Automatically Launching the Accept Suite Application on web browser.
-start https://10.173.125.203:9444/acceptsuiteservice/index_all.html
+start https://$IP_ADDRESS:$PORT/acceptsuite-service/index_all.html
 echo "Accept Suite Application successfully launched on web browser"
