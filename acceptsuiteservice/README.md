@@ -61,6 +61,8 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
   
 	![Image of Apache tomcat](WebApp/docs/images/Apache-tomcat-openssl.PNG)
 	
+  * Open the browser and search the URL(e.g. https://localhost:9444/).	
+	
 ### Publish AcceptSuite Web Service Application with Eclipse IDE.
 
 * Import acceptsuiteservice folder in Eclipse IDE.
