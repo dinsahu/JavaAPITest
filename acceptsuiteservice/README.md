@@ -74,6 +74,8 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
 * Import acceptsuiteservice folder in Eclipse IDE.
 
 	![Image of Open-Solution](WebApp/docs/images/eclipse-import.PNG)
+	
+* Open the **userInputs.json** file and change the PORT_NUMBER and HOST_NAME of the sytem or give localhost.	
 
 * Build the Application.
 

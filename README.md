@@ -27,9 +27,9 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 ![Image of CloneorDownloadButton](acceptsuiteservice/WebApp/docs/images/CloneorDownloadButton.PNG)
 
-* Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
+* Click on Download ZIP and choose the **webapps** folder inside Apache Tomcat Server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
-* Once UnZipped , accept-sample-app-java-master Folder acceptsuiteservice folder along with license and readme.md file.
+* Once UnZipped , accept-sample-app-java-master Folder **acceptsuiteservice** folder along with license and readme.md file.
 
 ![Image of FolderStructure](acceptsuiteservice/WebApp/docs/images/FolderStructure.PNG)
 
