@@ -39,10 +39,10 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	JDK 1.8 or higher version
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
-*  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#apache-tomcat-server-configuration).
+*  [Steps to create the server in Eclipse IDE](../master/README.md#steps-to-create-the-server-in-eclipse-ide)
+*  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#embed-apache-tomcat-server-openssl-configuration-in-eclipse).
 *  [Download the code from the repository](../master/README.md#steps-to-download-the-code-from-the-repository).
 *  Open the folder **acceptsuiteservice**
-*  [Steps to create the server in Eclipse IDE](../master/README.md#steps-to-create-the-server-in-eclipse-ide)
 *  [Publish AcceptSuite Web Service Application with Eclipse IDE](../master/README.md#publish-acceptsuite-web-service-application-with-eclipse-ide)
                                                                            
 * Once deployed Successfully by following the steps mentioned in the above link, update the URL's in Constants.js file as described below.
@@ -141,9 +141,8 @@ Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
 
 ## Prerequisite:
 *	JDK 1.8 or higher version
-*	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
-*   Apache Tomcat 7.0 Server OpenSSL configuration.
+*  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#standalone-apache-tomcat-server-openssl-configuration).
 
 ## Steps to download the code from the repository:
 
