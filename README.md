@@ -58,29 +58,29 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 
 The URLs should be provided with static port number in the following format.
 
-**https://localhost:9444/acceptsuiteservice/rest/api/acceptjs **
+**https://localhost:9444/acceptsuite-service/rest/api/acceptjs **
 
 * ApiMethodName parameter is dynamic and that need to be replaced with Product Type name 
 detailed description is explained below.
 
 * AcceptJSRequestUrl/AcceptUI.JS RequestUrl : URL to invoke Accept JS web service.
 
-	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/acceptjs**
+	**Sample URL: https://localhost:9444/acceptsuite-service/rest/api/acceptjs**
 
 
 * AcceptHostedRequestUrl : URL to get the token value for Accept Hosted.
 
-	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/accepthosted**
+	**Sample URL: https://localhost:9444/acceptsuite-service/rest/api/accepthosted**
 
 
 * AcceptCustomerRequestUrl : URL to get the token value for Accept Customer.
 
-	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/acceptcustomer**
+	**Sample URL: https://localhost:9444/acceptsuite-service/rest/api/acceptcustomer**
 
 
 * ValidateCustomerRequestUrl : URL to invoke a web api method to validate customer ID.
 
-	**Sample URL: https://localhost:9444/acceptsuiteservice/rest/api/validatecustomer**
+	**Sample URL: https://localhost:9444/acceptsuite-service/rest/api/validatecustomer**
 
 ## Merchant Authentication Details: 
 
@@ -134,7 +134,7 @@ The following are the parameters with values that remains constant throughout th
 		
 ## browse the website
 
-Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
+Sample URL: https://localhost:9444/acceptsuite-service/index_all.html
 
 ![Image of dashboard](acceptsuiteservice/WebApp/docs/images/dashboard.PNG)
 
@@ -168,6 +168,6 @@ Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
 ### Run the batch file
 
 *  Run deploy.sh file located inside the scripts folder.
-*  Once shell script file successfully execute it will automatically launch the Accept Suite URL: https://localhost:9444/acceptsuiteservice/index_all.html in default Web Browser.
+*  Once shell script file successfully execute it will automatically launch the Accept Suite URL: https://localhost:9444/acceptsuite-service/index_all.html in default Web Browser.
 
 ![Image of dashboard](acceptsuiteservice/WebApp/docs/images/dashboard.PNG)
