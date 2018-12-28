@@ -31,10 +31,10 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
 
 * Start the Server by click on startup.bat file which is kept in the "bin" sub-directory of the Tomcat installed directoryis.
 
-* Openssl/Https configuration in Apache Tomcat server followed by below steps e.g. https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html
-
 ### Embed Apache Tomcat Server OpenSSL configuration In Eclipse.
-
+ 
+  * Openssl/Https configuration in Apache Tomcat server followed by below steps e.g. https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html
+ 
   * Open Command prompt and Run as administrator  and goto "bin" sub-directory of the JDK installed directoryies.
   
   * Run the command "keytool -genkey -alias server -keyalg RSA -keysize 2048 -keystore Services.jks" to Generate the JKS file.
@@ -45,11 +45,13 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
   
 	![Image of Apache tomcat](WebApp/docs/images/Apache-tomcat-openssl.PNG)
 
-* Open the browser and search the URL(e.g. https://localhost:9444/).
+  * Open the browser and search the URL(e.g. https://localhost:9444/).
 
 ### Standalone Apache Tomcat Server OpenSSL configuration.
 
-* Open Command prompt and Run as administrator  and goto "bin" sub-directory of the JDK installed directoryies.
+  * Openssl/Https configuration in Apache Tomcat server followed by below steps e.g. https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html
+
+  * Open Command prompt and Run as administrator  and goto "bin" sub-directory of the JDK installed directoryies.
   
   * Run the command "keytool -genkey -alias server -keyalg RSA -keysize 2048 -keystore Services.jks" to Generate the JKS file.
    
