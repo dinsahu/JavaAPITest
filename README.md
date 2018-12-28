@@ -36,7 +36,8 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 ## Step by Step Guide for Manual Deployment:
 
 ## Prerequisite:
-*	JDK 1.8 or higher version
+*	JDK 1.8 or higher version.
+*   Maven 2.2.0 or higher version.
 *	Eclipse Oxygen IDE or any editor of your choice.
 *	Apache Tomcat7.0 Server or higher version.
 *  [Steps to create the server in Eclipse IDE](../master/README.md#steps-to-create-the-server-in-eclipse-ide)
@@ -140,7 +141,8 @@ Sample URL: https://localhost:9444/acceptsuiteservice/index_all.html
 ## Step by Step Guide for Automatic Deployment
 
 ## Prerequisite:
-*	JDK 1.8 or higher version
+*	JDK 1.8 or higher version.
+*   Maven 2.2.0 or higher version.
 *	Apache Tomcat7.0 Server or higher version.
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#standalone-apache-tomcat-server-openssl-configuration).
 
