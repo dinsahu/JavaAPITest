@@ -90,6 +90,12 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
 * Verify the Publish in the Output Section.
 	
 	![Image of Publish-Succeeded](WebApp/docs/images/eclipse-apache-output.PNG)
+	
+## browse the website
+
+Sample URL: https://localhost:9444/acceptsuite-service/index_all.html
+
+![Image of dashboard](WebApp/docs/images/dashboard.PNG)
 
 ## Proxy Configuration
 

@@ -97,49 +97,7 @@ The following are the parameters with values that remains constant throughout th
 * ApiTransactionKey
 
 ![Image of apiTransactionKey](acceptsuiteservice/WebApp/docs/images/apiTransactionKey.PNG)
-
-
-### Steps to create the server in Eclipse IDE
-
-*	Open Server window
-*	New > Server
-*	Select Tomcat v7.0 Server
-*	Select Server runtime environment. Press add
-
-	![Add-Website](acceptsuiteservice/WebApp/docs/images/Add-Website-Apache.png)
-	
-*	Select the folder where you extracted the server files that you have downloaded
-
-	![Add-Website](acceptsuiteservice/WebApp/docs/images/Add-Website-Server.png)
-	
-### Publish AcceptSuite Web Service Application with Eclipse IDE.
-
-* Import acceptsuiteservice folder in Eclipse IDE.
-
-	![Image of Open-Solution](acceptsuiteservice/WebApp/docs/images/eclipse-import.PNG)
-	
-* Open the **userInputs.json** file and change the PORT_NUMBER and HOST_NAME of the sytem or give localhost.	
-
-* Build the Application.
-
-* Right-click on the acceptsuiteservice project and select Run As-> Run Configuration.
 		
-    ![Image of Click-Publish](acceptsuiteservice/WebApp/docs/images/eclipse-build.PNG)		
-			
-* Start the server->Next->Finish.
-	
-	![Image of Publish-Folder](acceptsuiteservice/WebApp/docs/images/eclipse-apache-run.PNG)
-		
-* Verify the Publish in the Output Section.
-	
-	![Image of Publish-Succeeded](acceptsuiteservice/WebApp/docs/images/eclipse-apache-output.PNG)
-		
-## browse the website
-
-Sample URL: https://localhost:9444/acceptsuite-service/index_all.html
-
-![Image of dashboard](acceptsuiteservice/WebApp/docs/images/dashboard.PNG)
-
 ## Step by Step Guide for Automatic Deployment
 
 ## Prerequisite:
