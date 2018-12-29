@@ -124,6 +124,13 @@ The following are the parameters with values that remains constant throughout th
 
 ![Image of downloadToGitZip](acceptsuiteservice/WebApp/docs/images/downloadToGitZip.PNG)
 
+* Open the userInputs.json file and change the PORT_NUMBER,HOST_NAME and SERVER_PATH.
+```
+{"SERVER_PATH" : "C:\server\apache-tomcat",
+"PORT_NUMBER" : "9444",
+"HOST_NAME" : "localhost"}
+```
+
 ### Mandatory steps to be performed before running .sh file
 
 *  Open deploy.sh file and update the folder path in line no.1:TOMCAT,line no.7:BUILD and line no.8:WAR_FILE.
