@@ -13,11 +13,11 @@ There are two ways to navigate to Accept.js page.
  
 The URL format for Accept Customer is as follows,
 
-https://IPAddress:PortNumber/projectname/index.html?producttype=acceptcustomer&CustomerId=1813212446
+https://IPAddress:PortNumber/acceptsuite-service/index.html?producttype=acceptcustomer&CustomerId=1813212446
 
 ## Workflow
 
-**Accept Hosted client-side functionality is written in *accept-customer.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\assets\js\accept-suite\accept-customer.js).**
+**Accept Hosted client-side functionality is written in *accept-customer.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\docs\accept-customer.js).**
 
 Accept Customer will utilize existing ANET Customer Profiles API methods. Customer ID is mandatory to access Accept Customer product type. 
 
@@ -132,7 +132,7 @@ function acceptCustomer(id) {
             apiLoginId: globalVars.ApiLoginID,//Value fetched from the constants.js file
             apiTransactionKey: globalVars.ApiTransactionKey,//Value fetched from the constants.js file
             customerId: customerId,
-            iFrameCommunicatorUrl: window.location.origin + '/acceptsuiteservice/iframeCommunicator.html'
+            iFrameCommunicatorUrl: window.location.origin + '/acceptsuite-service/iframeCommunicator.html'
         },
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
