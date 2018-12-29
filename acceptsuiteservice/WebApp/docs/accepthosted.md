@@ -29,7 +29,7 @@ https://localhost:9444/acceptsuite-service/index.html?producttype=accepthosted&C
 
 ## Workflow
 
-**Accept Hosted client-side functionality is written in *accept-hosted.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\docs\accept-hosted.js).**
+**Accept Hosted client-side functionality is written in *accept-hosted.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\assets\js\accept-suite\accept-hosted.js).**
 
 Step 1 : On loading of Accept Hosted page, there are two cases to be checked.
 
@@ -183,7 +183,7 @@ To securely communicate between our Accept Hosted form and your web page, we nee
 
 The URL of the communicator page is passed in your token request, which will allow Authorize.Net to embed the communicator page in the payment form.
 
-A communication handler is written in **app.js javascript file(..\acceptsuiteservice\WebApp\assets\js\accept-suite\app.js)** to receive the messages of iframe communicator and executes the script based on the message received.
+A communication handler is written in **app.js javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\assets\js\accept-suite\app.js)** to receive the messages of iframe communicator and executes the script based on the message received.
 
 ```
 //Methods for accept hosted/accept customer iframes that executes on receiving message in iframeCommunicator

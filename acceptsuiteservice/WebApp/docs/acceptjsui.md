@@ -19,7 +19,7 @@ There are two ways to navigate to Accept.js UI page.
  
 The URL format for Accept.js UI is as follows,
 
-https://IPAddress:PortNumber/projectname/index.html?producttype=acceptui
+https://IPAddress:PortNumber/acceptsuite-service/index.html?producttype=acceptui
 
 ## Workflow
 

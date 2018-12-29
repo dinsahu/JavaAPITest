@@ -17,7 +17,7 @@ https://IPAddress:PortNumber/acceptsuite-service/index.html?producttype=acceptcu
 
 ## Workflow
 
-**Accept Hosted client-side functionality is written in *accept-customer.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\docs\accept-customer.js).**
+**Accept Hosted client-side functionality is written in *accept-customer.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\assets\js\accept-suite\accept-customer.js).**
 
 Accept Customer will utilize existing ANET Customer Profiles API methods. Customer ID is mandatory to access Accept Customer product type. 
 

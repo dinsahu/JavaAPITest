@@ -19,7 +19,7 @@ There are two ways to navigate to Accept.js page.
  
 The URL format for Accept.js is as follows,
 
-https://IPAddress:PortNumber/projectname/index.html?producttype=acceptjs
+https://IPAddress:PortNumber/acceptsuite-service/index.html?producttype=acceptjs
 
 ## Workflow
 
