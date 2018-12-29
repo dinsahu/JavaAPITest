@@ -19,17 +19,17 @@ There are two ways to navigate to Accept Hosted page.
  
 The URL format for Accept Hosted is as follows,
 
-https://IPAddress:PortNumber/projectname/index.html?producttype=accepthosted
+https://IPAddress:PortNumber/acceptsuite-service/index.html?producttype=accepthosted
 
 The URL format for Accept Hosted without Customer ID is as follows,
-https://localhost:9444/acceptsuiteservice/index.html?producttype=accepthosted
+https://localhost:9444/acceptsuite-service/index.html?producttype=accepthosted
 
 The URL format for Accept Hosted with passing customer ID is as follows,
-https://localhost:9444/acceptsuiteservice/index.html?producttype=accepthosted&CustomerId=1813212446
+https://localhost:9444/acceptsuite-service/index.html?producttype=accepthosted&CustomerId=1813212446
 
 ## Workflow
 
-**Accept Hosted client-side functionality is written in *accept-hosted.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\assets\js\accept-suite\accept-hosted.js).**
+**Accept Hosted client-side functionality is written in *accept-hosted.js* javascript file(..\accept-sample-app-java\acceptsuiteservice\WebApp\docs\accept-hosted.js).**
 
 Step 1 : On loading of Accept Hosted page, there are two cases to be checked.
 
@@ -107,7 +107,7 @@ function acceptHosted(id) {
         data: {
             apiLoginId: globalVars.ApiLoginID,//Value fetched from the constants.js file
             apiTransactionKey: globalVars.ApiTransactionKey,//Value fetched from the constants.js file
-            iFrameCommunicatorUrl: window.location.origin + '/acceptsuiteservice/iframeCommunicator.html', 
+            iFrameCommunicatorUrl: window.location.origin + '/acceptsuite-service/iframeCommunicator.html', 
             customerId: customerId
         },
         contentType: 'application/json; charset=utf-8',
