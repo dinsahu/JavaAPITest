@@ -122,7 +122,7 @@ The following are the parameters with values that remains constant throughout th
 
 * Goto **scripts** folder sub-directory of **acceptsuiteservice**. 
 
-![Image of downloadToGitZipFile](acceptsuiteservice/WebApp/docs/images/downloadToGitZipFile.PNG)
+![Image of downloadToGitZip](acceptsuiteservice/WebApp/docs/images/downloadToGitZip.PNG)
 
 ### Mandatory steps to be performed before running .sh file
 
