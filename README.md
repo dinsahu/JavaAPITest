@@ -42,9 +42,9 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	Apache Tomcat7.0 Server or higher version.
 *  [Steps to create the server in Eclipse IDE](../master/acceptsuiteservice#steps-to-create-the-server-in-eclipse-ide)
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#embed-apache-tomcat-server-openssl-configuration-in-eclipse).
+*  [Download the jq.jar library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
 *  [Download the code from the repository](../master/README.md#steps-to-download-the-code-from-the-repository).
 *  Open the folder **acceptsuiteservice**
-*  [Download the jq.jar library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
 *  [Publish AcceptSuite Web Service Application with Eclipse IDE](../master/acceptsuiteservice#publish-acceptsuite-web-service-application-with-eclipse-ide)
                                                                            
 * Once deployed Successfully by following the steps mentioned in the above link, update the URL's in Constants.js file as described below.
