@@ -116,9 +116,11 @@ The following are the parameters with values that remains constant throughout th
 
 ![Image of CloneorDownloadButton](acceptsuiteservice/WebApp/docs/images/CloneorDownloadButton.PNG)
 
-* Click on Download ZIP and choose the webapps folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
+* Click on Download ZIP and choose the **webapps** folder inside tomcat server has installed and UnZip the folder accept-sample-app-java-master.zip.
 
-* Open the folder **scripts**
+* Copy **acceptsuiteservice** folder from UnZiped folder accept-sample-app-java-master and paste it inside **webapps** folder.
+
+* Goto **scripts** folder sub-directory of **acceptsuiteservice**. 
 
 ![Image of downloadToGitZipFile](acceptsuiteservice/WebApp/docs/images/downloadToGitZipFile.PNG)
 

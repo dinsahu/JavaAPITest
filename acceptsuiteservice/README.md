@@ -65,7 +65,7 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
 
 ### Steps to download and configure the **jq** library.
 
-  * Save the downloaded jq library name as jq and choose the location bin folder sub-directory of git(e.g.\Program Files\Git\usr\bin).
+  * Save the downloaded **jq** library name as jq and choose the location bin folder sub-directory of git(e.g.\Program Files\Git\usr\bin).
   * Go to Environment Variables.
   * Add System Variables-->Set the foler path of git/usr/bin.
 	
