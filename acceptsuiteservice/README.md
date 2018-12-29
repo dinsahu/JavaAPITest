@@ -133,13 +133,13 @@ Sample URL: https://localhost:9444/acceptsuite-service/index_all.html
 
 For Instance we will verify one of the API Method Validate Customer.
 
-URL: https://<IPAddress>:<PortNumber>/acceptsuiteservice/rest/api/validatecustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
+URL: https://<IPAddress>:<PortNumber>/acceptsuite-service/rest/api/validatecustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
 
 * Sample Request URL
 
-**Validate Customer API**: https://localhost:9444/acceptsuiteservice/rest/api/validatecustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
+**Validate Customer API**: https://localhost:9444/acceptsuite-service/rest/api/validatecustomer?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&customerId=1813212446
 
-**Accept JS/UI**: https://localhost:9444/acceptsuiteservice/rest/api/acceptjs?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&token=eyJjb2RlIjoiNTBfMl8wNjAwMDUyMkIzMkVGQTMyOURENzIzMkFCRENERTczM0JCQkY5RTEyMDdGOUUyMEQxQzJFNEMwNjk0QTQzNjdCQUY5NDZFMDRFNkNBRkRCOEZFQjA4NDI5MjE5OEQyOUI2ODdDMDc3IiwidG9rZW4iOiI5NTM4OTk0MTEwNDY1ODgzMjA0NjAzIiwidiI6IjEuMSJ9
+**Accept JS/UI**: https://localhost:9444/acceptsuite-service/rest/api/acceptjs?apiLoginId=78BZ5Xprry&apiTransactionKey=8s2F95Q7brhHd7Tn&token=eyJjb2RlIjoiNTBfMl8wNjAwMDUyMkIzMkVGQTMyOURENzIzMkFCRENERTczM0JCQkY5RTEyMDdGOUUyMEQxQzJFNEMwNjk0QTQzNjdCQUY5NDZFMDRFNkNBRkRCOEZFQjA4NDI5MjE5OEQyOUI2ODdDMDc3IiwidG9rZW4iOiI5NTM4OTk0MTEwNDY1ODgzMjA0NjAzIiwidiI6IjEuMSJ9
 
 * Response : 
 {"successValue":"I00001 Successful.","errorMessage":null,"status":true}
