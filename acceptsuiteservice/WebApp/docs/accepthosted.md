@@ -183,8 +183,8 @@ To securely communicate between our Accept Hosted form and your web page, we nee
 
 The URL of the communicator page is passed in your token request, which will allow Authorize.Net to embed the communicator page in the payment form.
 
-A communication handler is written in [**app.js**](https://github.com/dinsahu/accept-sample-app-java/blob/master/acceptsuiteservice/WebApp/assets/js/accept-suite/app.js) file to receive the messages of iframe communicator and executes the script based on the message received.
- 
+A communication handler is written in **app.js javascript file(..\acceptsuiteservice\WebApp\assets\js\accept-suite\app.js)** to receive the messages of iframe communicator and executes the script based on the message received.
+
 ```
 //Methods for accept hosted/accept customer iframes that executes on receiving message in iframeCommunicator
 CommunicationHandler.onReceiveCommunication = function (argument) {
