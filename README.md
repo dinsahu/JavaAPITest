@@ -42,7 +42,7 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	Apache Tomcat7.0 Server or higher version.
 *  [Steps to create the server in Eclipse IDE](../master/acceptsuiteservice#steps-to-create-the-server-in-eclipse-ide)
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#embed-apache-tomcat-server-openssl-configuration-in-eclipse).
-*  [Download the jq.jar library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
+*  [Download the **jq** library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
 *  [Download the code from the repository](../master/README.md#steps-to-download-the-code-from-the-repository).
 *  Open the folder **acceptsuiteservice**
 *  [Publish AcceptSuite Web Service Application with Eclipse IDE](../master/acceptsuiteservice#publish-acceptsuite-web-service-application-with-eclipse-ide)
@@ -106,7 +106,7 @@ The following are the parameters with values that remains constant throughout th
 *   Maven 2.2.0 or higher version.
 *	Apache Tomcat7.0 Server or higher version.
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#standalone-apache-tomcat-server-openssl-configuration).
-*  [Download the jq.jar library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
+*  [Download the **jq** library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
 
 ## Steps to download the code from the repository:
 
