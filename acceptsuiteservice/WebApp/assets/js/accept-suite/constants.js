@@ -21,13 +21,13 @@ function loadJSON() {
         	  ApiTransactionKey : '7RG599ZKdyfk248e',
 
               // Web API URL's
-        	  AcceptJSRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/acceptjs',
+        	  AcceptJSRequestUrl : 'https://'+jsondata.HOST_NAME+':'+jsondata.PORT_NUMBER+'/acceptsuite-service/rest/api/acceptjs',
 
-        	  AcceptHostedRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/accepthosted',
+        	  AcceptHostedRequestUrl : 'https://'+jsondata.HOST_NAME+':'+jsondata.PORT_NUMBER+'/acceptsuite-service/rest/api/accepthosted',
 
-        	  AcceptCustomerRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/acceptcustomer',
+        	  AcceptCustomerRequestUrl : 'https://'+jsondata.HOST_NAME+':'+jsondata.PORT_NUMBER+'/acceptsuite-service/rest/api/acceptcustomer',
 
-        	  ValidateCustomerRequestUrl : 'https://'+jsondata.IP_ADDRESS+':'+jsondata.PORT+'/acceptsuite-service/rest/api/validatecustomer',
+        	  ValidateCustomerRequestUrl : 'https://'+jsondata.HOST_NAME+':'+jsondata.PORT_NUMBER+'/acceptsuite-service/rest/api/validatecustomer',
 
               // available customer id
         	  ValidCustomer : '1916219194'
