@@ -128,11 +128,10 @@ The following are the parameters with values that remains constant throughout th
 
 * Open the **userInputs.json** file and change the PORT_NUMBER,HOST_NAME and SERVER_PATH.
 ```
-{"SERVER_PATH" : "C:\server\apache-tomcat",
+{"SERVER_PATH" : "C:/server/apache-tomcat",
 "PORT_NUMBER" : "9444",
 "HOST_NAME" : "localhost"}
 ```
-
 ### Run the batch file
 
 *  Run deploy.sh file located inside the scripts folder.
