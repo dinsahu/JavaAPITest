@@ -45,7 +45,7 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
     ```
 	<Connector SSLEnabled="true" acceptCount="100" clientAuth="false"
      disableUploadTimeout="true" enableLookups="false" maxThreads="25"
-     port="9443" keystoreFile="conf/Services.jks" keystorePass="tcserver"
+     port="9444" keystoreFile="conf/Services.jks" keystorePass="tcserver"
      protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />
     ```
   * Open the browser and search the URL(e.g. https://localhost:9444/).
@@ -64,7 +64,7 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
     ```
 	<Connector SSLEnabled="true" acceptCount="100" clientAuth="false"
      disableUploadTimeout="true" enableLookups="false" maxThreads="25"
-     port="9443" keystoreFile="conf/Services.jks" keystorePass="tcserver"
+     port="9444" keystoreFile="conf/Services.jks" keystorePass="tcserver"
      protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https" secure="true" sslProtocol="TLS" />
     ```
   * Open the browser and search the URL(e.g. https://localhost:9444/).
