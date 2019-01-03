@@ -126,7 +126,7 @@ The following are the parameters with values that remains constant throughout th
 
 ![Image of downloadToGitZip](acceptsuiteservice/WebApp/docs/images/downloadToGitZip.PNG)
 
-* Open the **userInputs.json** file and change the PORT_NUMBER,HOST_NAME and SERVER_PATH.
+* Open the **userInputs.json** file and provide the proper SERVER_PATH, PORT_NUMBER and HOST_NAME of the sytem or give localhost.
 ```
 {"SERVER_PATH" : "C:/server/apache-tomcat",
 "PORT_NUMBER" : "9444",

@@ -1,14 +1,35 @@
 #!/bin/bash
-#Sets the folder path
-SERVER_PATH=$(jq -r '.SERVER_PATH' userInputs.json)
-PORT_NUMBER=$(jq -r '.PORT_NUMBER' userInputs.json)
-HOST_NAME=$(jq -r '.HOST_NAME' userInputs.json)
+
+#Checking for userInputs file name.
+file=userInputs.json
+n=$((RANDOM%50+5))
+
+if [ ! -f "$file" ];
+then
+    echo "File '${file}' not found.Please check the script folder for userInputs.json"
+	sleep $n
+	exit 1
+fi
+
+#Sets the Server path,port number and host name/system ip address.
+SERVER_PATH=$(jq -r '.SERVER_PATH' $file)
+PORT_NUMBER=$(jq -r '.PORT_NUMBER' $file)
+HOST_NAME=$(jq -r '.HOST_NAME' $file)
+
+#Null check for Server path,port number and host name/system ip address.
+if  [  "$SERVER_PATH" == null ] || [ -z "$SERVER_PATH" ] || [  "$PORT_NUMBER" == null ] || [ -z "$PORT_NUMBER" ] || [  "$HOST_NAME" == null ] || [ -z "$HOST_NAME" ];
+then 
+echo "Anyone of these variable values should not be null or blank string: 'SERVER_PATH', 'PORT_NUMBER' and 'HOST_NAME'. Please provide proper variable values in userInputs.json file"
+sleep $n
+exit 1
+fi
+
+#Apache tomcat server configuration.
 TOMCAT_WEBAPPS=$SERVER_PATH/webapps
 TOMCAT_CONFIG=$SERVER_PATH/conf/server.xml
 TOMCAT_START=$SERVER_PATH/bin/catalina.bat
 BUILD=$TOMCAT_WEBAPPS/acceptsuiteservice
 WAR_FILE=$BUILD/target/acceptsuite-service.war
-n=$((RANDOM%50+5))
 
 # Start build
 cd $BUILD
