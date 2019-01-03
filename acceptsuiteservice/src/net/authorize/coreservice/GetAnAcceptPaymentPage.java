@@ -6,8 +6,7 @@ import net.authorize.api.contract.v1.*;
 import net.authorize.api.controller.base.ApiOperationBase;
 import net.authorize.api.controller.GetHostedPaymentPageController;
 
-public class GetAnAcceptPaymentPage {
-	
+public class GetAnAcceptPaymentPage {	
 
 	public static ANetApiResponse run(String apiLoginId, String transactionKey, String hostedPaymentIFrameCommunicatorUrl,String customerProfileId) {
 	    
@@ -47,7 +46,7 @@ public class GetAnAcceptPaymentPage {
         
         SettingType setting5 = new SettingType();
         setting5.setSettingName("hostedPaymentReturnOptions");
-        setting5.setSettingValue("{\"showReceipt\": false,\"url\":\"" + hostedPaymentIFrameCommunicatorUrl + "\",\"urlText\":\"Continue\",\"cancelUrl\":\"" + hostedPaymentIFrameCommunicatorUrl + "\",\"cancelUrlText\":\"Cancel\"}");
+        setting5.setSettingValue("{\"showReceipt\": false,\"url\":\"" + hostedPaymentIFrameCommunicatorUrl + "\",\"urlText\":\"Continue\",\"cancelUrlText\":\"Cancel\"}");
 
         ArrayOfSetting alist = new ArrayOfSetting();
         alist.getSetting().add(setting1);
