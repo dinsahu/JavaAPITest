@@ -105,13 +105,13 @@ The following are the parameters with values that remains constant throughout th
 
 * User can update the URL at acceptHosted function in assets/js/accept-suite/accept-hosted.js file 
 
-![Image of hosted post url](docs/images/Hosted_POST_URL.PNG)
+![Image of hosted post url](acceptsuiteservice/WebApp/docs/images/Hosted_POST_URL.PNG)
 
 **Accept Customer**
 
 * User can update the URL at acceptCustomer function in assets/js/accept-suite/accept-customer.js file 
 
-![Image of hosted post url](docs/images/Customer_POST_URL.PNG)
+![Image of hosted post url](acceptsuiteservice/WebApp/docs/images/Customer_POST_URL.PNG)
 		
 ## Step by Step Guide for Automatic Deployment
 
