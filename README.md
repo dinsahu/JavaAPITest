@@ -42,11 +42,11 @@ https://developer.authorize.net/api/reference/features/customer_profiles.html#Us
 *	Apache Tomcat7.0 Server or higher version.
 *  [Steps to create the server in Eclipse IDE](../master/acceptsuiteservice#steps-to-create-the-server-in-eclipse-ide)
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#embed-apache-tomcat-server-openssl-configuration-in-eclipse).
-*  [Download the **jq** library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
+*  Download and install the **jq** library file and configure it.
 *  [Download the code from the repository](../master/README.md#steps-to-download-the-code-from-the-repository).
 *  Open the folder **acceptsuiteservice**
 *  [Publish AcceptSuite Web Service Application with Eclipse IDE](../master/acceptsuiteservice#publish-acceptsuite-web-service-application-with-eclipse-ide)
-                                                                           
+           				
 * Once deployed Successfully by following the steps mentioned in the above link, update the URL's in Constants.js file as described below.
 
 * Constants.js file is located inside scripts folder in the path \WebApp\assets\js\accept-suite.
@@ -116,11 +116,11 @@ The following are the parameters with values that remains constant throughout th
 ## Step by Step Guide for Automatic Deployment
 
 ## Prerequisite:
-*	JDK 1.8 or higher version.
-*   Maven 2.2.0 or higher version.
-*	Apache Tomcat7.0 Server or higher version.
+*  JDK 1.8 or higher version.
+*  Maven 2.2.0 or higher version.
+*  Apache Tomcat7.0 Server or higher version.
 *  [Apache Tomcat 7.0 Server OpenSSL configuration](../master/acceptsuiteservice#standalone-apache-tomcat-server-openssl-configuration).
-*  [Download the **jq** library and configuration](../master/acceptsuiteservice#steps-to-download-and-configure-the-jq-library)
+*  Download and install the **jq** library file and configure it.
 
 ## Steps to download the code from the repository:
 

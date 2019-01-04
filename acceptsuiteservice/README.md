@@ -69,19 +69,13 @@ Please follow step by step procedure to host the Java Web Service API Applicatio
     ```	
   * Open the browser and search the URL(e.g. https://localhost:9444/).
 
-### Steps to download and configure the **jq** library.
-
-  * download **jq** library file and name as jq.exe.
-  * Go to Environment Variables.
-  * Add System Variables-->Set the foler path.
-	
 ### Publish AcceptSuite Web Service Application with Eclipse IDE.
 
 * Import acceptsuiteservice folder in Eclipse IDE.
 
 	![Image of Open-Solution](WebApp/docs/images/eclipse-import.PNG)
 	
-* Open script folder for **userInputs.json** file and provide the proper PORT_NUMBER and HOST_NAME of the sytem or give localhost.
+* Open script folder for **userInputs.json** file and provide the proper PORT_NUMBER and HOST_NAME of the sytem or give localhost. No need to change SERVER_PATH as it required in Automatic Deployment. 
 ```
 {"SERVER_PATH" : "C:/server/apache-tomcat",
 "PORT_NUMBER" : "9444",
